@@ -68,7 +68,7 @@
                   moduleName = "LXMessageShowDemoTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wei/Desktop/Github/LXMessageShowDemo/LXMessageShowDemoTests/XWMessageSqliteToolTests.m"
-                  timestampString = "509510229.080336"
+                  timestampString = "509592157.622"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
@@ -83,7 +83,7 @@
                   moduleName = "LXMessageShowDemoTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wei/Desktop/Github/LXMessageShowDemo/LXMessageShowDemoTests/XWMessageSqliteToolTests.m"
-                  timestampString = "509510229.082888"
+                  timestampString = "509592157.623818"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
@@ -98,7 +98,7 @@
                   moduleName = "LXMessageShowDemoTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wei/Desktop/Github/LXMessageShowDemo/LXMessageShowDemoTests/XWMessageSqliteToolTests.m"
-                  timestampString = "509510229.084989"
+                  timestampString = "509592157.625343"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
@@ -113,7 +113,7 @@
                   moduleName = "LXMessageShowDemoTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wei/Desktop/Github/LXMessageShowDemo/LXMessageShowDemoTests/XWMessageSqliteToolTests.m"
-                  timestampString = "509510229.087112"
+                  timestampString = "509592157.62686"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
@@ -201,38 +201,22 @@
             endingLineNumber = "37"
             landmarkName = "-testPOST"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[XWAFNManagerTests testPOST]"
-                  moduleName = "LXMessageShowDemoTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wei/Desktop/Github/LXMessageShowDemo/LXMessageShowDemoTests/XWAFNManagerTests.m"
-                  timestampString = "509510229.101076"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "21">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__29-[XWAFNManagerTests testPOST]_block_invoke"
-                  moduleName = "LXMessageShowDemoTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wei/Desktop/Github/LXMessageShowDemo/LXMessageShowDemoTests/XWAFNManagerTests.m"
-                  timestampString = "509510229.102554"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "51">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LXMessageShowDemoTests/XWMessageSqliteToolTests.m"
+            timestampString = "509591858.288561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-testMessageDictInit"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

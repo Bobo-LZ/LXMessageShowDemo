@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "XWAFNManager.h"
+//#import "XWAFNManager.h"
 
 @interface XWAFNManagerTests : XCTestCase
 
@@ -34,17 +34,17 @@
 #define kTestPostID @"kTestPostID"
 
 -(void)testPOST{
-    [[XWAFNManager sharedManager] POST:url parameters:nil netIdentifier:kTestPostID progress:^(NSProgress *downloadProgress) {
-        NSLog(@"进度 - %@",downloadProgress);
-    } success:^(id responseObject) {
-         NSLog(@"responseObject = 下载成功");
-    } failure:^(NSError *error) {
-        if (error.code == -999) {
-            NSLog(@"请求取消");
-        }else{
-            NSLog(@"请求失败");
-        }
-    }];
+//    [[XWAFNManager sharedManager] POST:url parameters:nil netIdentifier:kTestPostID progress:^(NSProgress *downloadProgress) {
+//        NSLog(@"进度 - %@",downloadProgress);
+//    } success:^(id responseObject) {
+//         NSLog(@"responseObject = 下载成功");
+//    } failure:^(NSError *error) {
+//        if (error.code == -999) {
+//            NSLog(@"请求取消");
+//        }else{
+//            NSLog(@"请求失败");
+//        }
+//    }];
 }
 
 - (void)testPerformanceExample {

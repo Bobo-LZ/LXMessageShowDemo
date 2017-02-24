@@ -7,6 +7,7 @@
 //
 
 #import "IMessage.h"
+#import "MJExtension.h"
 
 @implementation IMessage
 
@@ -21,6 +22,17 @@
 
 +(NSString *)primaryKey{
     return @"IMID";
+}
+
++(instancetype)initWithDict:(NSDictionary *)dict{
+    return [self mj_objectWithKeyValues:dict];
+}
+
+
++(NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{
+             @"IMID" : @"id"
+             };
 }
 
 @end
