@@ -23,8 +23,6 @@
 		2E1B9DA41E5D30A200F8F612 /* IMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1B9DA31E5D30A200F8F612 /* IMessage.m */; };
 		2E3B75631E5D39E4009F46C2 /* Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3B75621E5D39E4009F46C2 /* Portrait.png */; };
 		2E3B75661E5D3A56009F46C2 /* LiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B75651E5D3A56009F46C2 /* LiveVC.m */; };
-		2E3B75701E5D7DFC009F46C2 /* XWAFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B756F1E5D7DFC009F46C2 /* XWAFNManager.m */; };
-		2E3B75771E5D7EAE009F46C2 /* XWUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B75761E5D7EAE009F46C2 /* XWUploadParam.m */; };
 		2E3B759E1E5D841A009F46C2 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B757B1E5D841A009F46C2 /* AFHTTPSessionManager.m */; };
 		2E3B759F1E5D841A009F46C2 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B757E1E5D841A009F46C2 /* AFNetworkReachabilityManager.m */; };
 		2E3B75A01E5D841A009F46C2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B75801E5D841A009F46C2 /* AFSecurityPolicy.m */; };
@@ -93,10 +91,6 @@
 		2E3B75621E5D39E4009F46C2 /* Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portrait.png; sourceTree = "<group>"; };
 		2E3B75641E5D3A56009F46C2 /* LiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVC.h; sourceTree = "<group>"; };
 		2E3B75651E5D3A56009F46C2 /* LiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVC.m; sourceTree = "<group>"; };
-		2E3B756E1E5D7DFC009F46C2 /* XWAFNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAFNManager.h; sourceTree = "<group>"; };
-		2E3B756F1E5D7DFC009F46C2 /* XWAFNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAFNManager.m; sourceTree = "<group>"; };
-		2E3B75751E5D7EAE009F46C2 /* XWUploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWUploadParam.h; sourceTree = "<group>"; };
-		2E3B75761E5D7EAE009F46C2 /* XWUploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWUploadParam.m; sourceTree = "<group>"; };
 		2E3B757A1E5D841A009F46C2 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		2E3B757B1E5D841A009F46C2 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		2E3B757C1E5D841A009F46C2 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -236,17 +230,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		2E3B756D1E5D7DD3009F46C2 /* XWAFNManager */ = {
-			isa = PBXGroup;
-			children = (
-				2E3B756E1E5D7DFC009F46C2 /* XWAFNManager.h */,
-				2E3B756F1E5D7DFC009F46C2 /* XWAFNManager.m */,
-				2E3B75751E5D7EAE009F46C2 /* XWUploadParam.h */,
-				2E3B75761E5D7EAE009F46C2 /* XWUploadParam.m */,
-			);
-			path = XWAFNManager;
-			sourceTree = "<group>";
-		};
 		2E3B75781E5D841A009F46C2 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,7 +311,6 @@
 			isa = PBXGroup;
 			children = (
 				2E3B75781E5D841A009F46C2 /* Framework */,
-				2E3B756D1E5D7DD3009F46C2 /* XWAFNManager */,
 				2E1B9D3C1E5B47E700F8F612 /* XWSQLiteManager */,
 				2E1B9D911E5D303200F8F612 /* AutoscollView */,
 				2E1B9DA11E5D30A200F8F612 /* Model */,
@@ -487,7 +469,6 @@
 				2E1B9D971E5D303200F8F612 /* AutoScrollViewController.m in Sources */,
 				2E3B75A31E5D841A009F46C2 /* AFURLSessionManager.m in Sources */,
 				2E3B75AD1E5D841A009F46C2 /* NSObject+MJProperty.m in Sources */,
-				2E3B75701E5D7DFC009F46C2 /* XWAFNManager.m in Sources */,
 				2E1B9D491E5B47E700F8F612 /* XWModelTool.m in Sources */,
 				2E3B75661E5D3A56009F46C2 /* LiveVC.m in Sources */,
 				2E1B9DA41E5D30A200F8F612 /* IMessage.m in Sources */,
@@ -502,7 +483,6 @@
 				2E3B75A11E5D841A009F46C2 /* AFURLRequestSerialization.m in Sources */,
 				2E3B759F1E5D841A009F46C2 /* AFNetworkReachabilityManager.m in Sources */,
 				2E3B75A21E5D841A009F46C2 /* AFURLResponseSerialization.m in Sources */,
-				2E3B75771E5D7EAE009F46C2 /* XWUploadParam.m in Sources */,
 				2E3B75A71E5D841A009F46C2 /* MJProperty.m in Sources */,
 				2E1B9D4A1E5B47E700F8F612 /* XWSqliteModelTool.m in Sources */,
 				2E1B9D521E5B48F700F8F612 /* XWMessageSqliteTool.m in Sources */,

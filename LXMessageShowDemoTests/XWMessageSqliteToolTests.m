@@ -87,6 +87,16 @@
     }
 }
 
+-(void)testMessageDictInit{
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    dict[@"id"] = @"IMID_001";
+    dict[@"UID"] = @"UID_001";
+    dict[@"content"] = @"content_001";
+    IMessage *testImessage = [IMessage initWithDict:dict];
+    NSLog(@"testImessage.IMID : %@",testImessage.IMID);
+    
+}
+ 
 
 
 - (void)testPerformanceExample {

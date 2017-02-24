@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "XWModelProtocol.h"
+#import "MJExtension.h"
 @interface IMessage : NSObject <XWModelProtocol>
 
 @property (nonatomic, copy) NSString *IMID;
@@ -21,5 +22,7 @@
 
 
 +(instancetype)initWith:(NSString *)IMID UID:(NSString *)UID content:(NSString *)content type:(NSString *)type;
+
++(instancetype)initWithDict:(NSDictionary *)dict;
 
 @end
